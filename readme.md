@@ -1,3 +1,5 @@
-## Kotlin Microservice with Spring Boot  [![Twitter](https://img.shields.io/twitter/follow/piotr_minkowski.svg?style=social&logo=twitter&label=Follow%20Me)](https://twitter.com/piotr_minkowski)
+Habits microservice for ITESM Software Architecture Class Spring 2019
 
-Detailed description can be found here: [Kotlin Microservice with Spring Boot](https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/)
+
+References
+(https://piotrminkowski.wordpress.com/2019/01/15/kotlin-microservice-with-spring-boot/)
