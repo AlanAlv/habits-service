@@ -1,4 +1,4 @@
-package pl.piomin.services.config
+package pl.alan.services.config
 
 import org.springframework.context.annotation.Configuration
 import springfox.documentation.swagger2.annotations.EnableSwagger2
@@ -41,7 +41,7 @@ class SwaggerConfig {
                 .apiInfo(apiInfo(version))
                 .select()
                 .apis(RequestHandlerSelectors.any())
-                .paths{ it.equals("/persons")}
+                .paths{ it.equals("/habits")}
                 .build()
                 .useDefaultResponseMessages(false)
                 .forCodeGeneration(true)
@@ -54,8 +54,8 @@ class SwaggerConfig {
 
     private fun apiInfo(version: String): ApiInfo {
         return ApiInfoBuilder()
-                .title("API - Person Service")
-                .description("Persons Management")
+                .title("API - Habit Service")
+                .description("Habits Management")
                 .version(version)
                 .build()
     }
